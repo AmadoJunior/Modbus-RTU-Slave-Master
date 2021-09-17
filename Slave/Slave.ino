@@ -14,8 +14,8 @@ void setup() {
   
   //Set
   modBus.slave(SLAVE_ID);
-  modBus.addHreg(0);
-  modBus.Hreg(0, 100);
+  modBus.addHreg(1);
+  modBus.Hreg(1, 0);
 }
 
 void loop() {
